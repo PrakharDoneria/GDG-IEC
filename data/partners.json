@@ -1,0 +1,24 @@
+{
+    "partners": [
+      {
+        "name": "SheBuilds",
+        "logo": "https://via.placeholder.com/100?text=SheBuilds",
+        "website": "https://shebuilds.io"
+      },
+      {
+        "name": "Hackathon Co.",
+        "logo": "https://via.placeholder.com/100?text=HackathonCo",
+        "website": "https://hackathons.io"
+      },
+      {
+        "name": "DevTools Inc.",
+        "logo": "https://via.placeholder.com/100?text=DevTools",
+        "website": "https://devtools.com"
+      },
+      {
+        "name": "CodeLabs",
+        "logo": "https://via.placeholder.com/100?text=CodeLabs"
+      }
+    ]
+  }
+  

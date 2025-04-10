@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Team | GDG-IEC</title>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="../main.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="animation-container"></div>
+  
+  <header class="team-header animate-in">
+    <div class="container">
+      <h1>Our Team</h1>
+      <p class="tagline">Meet the passionate folks behind GDG-IEC</p>
+    </div>
+  </header>
+  
+  <nav class="material-nav">
+    <div class="nav-container">
+      <div class="logo">
+        <img src="/assets/logo.png" alt="GDG Logo" class="contain-img" loading="eager">
+      </div>
+      <ul>
+        <li><a href="../"><span class="material-symbols-outlined">home</span>Home</a></li>
+        <li><a href="../events/"><span class="material-symbols-outlined">event</span>Events</a></li>
+        <li><a href="./" class="active"><span class="material-symbols-outlined">group</span>Team</a></li>
+        <li><a href="../partners/"><span class="material-symbols-outlined">handshake</span>Partners</a></li>
+        <li><a href="../photos/"><span class="material-symbols-outlined">photo_library</span>Photos</a></li>
+      </ul>
+      <button class="mobile-menu-btn">
+        <span class="material-symbols-outlined">menu</span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="team-intro card-elevation animate-in">
+      <div class="section-content">
+        <h2>Our Amazing Team</h2>
+        <p>
+          The GDG-IEC team consists of passionate students, developers, and tech enthusiasts 
+          who work together to create a vibrant tech community on campus.
+        </p>
+        <div class="gdg-colors">
+          <span class="color-dot blue"></span>
+          <span class="color-dot red"></span>
+          <span class="color-dot yellow"></span>
+          <span class="color-dot green"></span>
+        </div>
+      </div>
+    </section>
+
+    <div class="team-grid" id="team-container">
+      <!-- Team members populated via JS -->
+      <div class="team-grid-placeholder">
+        <span class="material-symbols-outlined loading-icon">person</span>
+      </div>
+    </div>
+  </main>
+
+  <footer class="animate-in" data-delay="600">
+    <div class="footer-content">
+      <p>&copy; 2025 GDG-IEC | Powered by Google Developer Groups</p>
+      <div class="social-links">
+        <a href="#" class="social-icon"><span class="material-symbols-outlined">public</span></a>
+        <a href="#" class="social-icon"><span class="material-symbols-outlined">smart_toy</span></a>
+        <a href="#" class="social-icon"><span class="material-symbols-outlined">mail</span></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="../main.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

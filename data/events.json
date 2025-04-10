@@ -1,0 +1,68 @@
+{
+  "upcoming": [
+    {
+      "title": "Unveiling the Path to Open Source Success: GSoC and Beyond",
+      "date": "2025-04-12",
+      "description": "A webinar to help you ace Google Summer of Code and get insights from experienced contributors. Learn how to make meaningful contributions to open source projects, prepare a strong GSoC application, and build your developer portfolio.",
+      "type": "tech talk",
+      "location": "Online Webinar",
+      "tags": ["Open Source", "GSoC", "Web"],
+      "banner": "https://unsplash.com/photos/hackernoon-text-Io4n2UgG8Po",
+      "register": "https://gdg-iec.dev/register/gsoc-webinar",
+      "details": "https://gdg-iec.dev/events/gsoc-webinar"
+    },
+    {
+      "title": "Hackémon: 36 Hour Hackathon",
+      "date": "2025-04-25",
+      "description": "Welcome to HACKEMON: Code, Create, Conquer! ⚡ Powered by SheBuilds. Join us for an exciting 36-hour hackathon where you'll collaborate with fellow developers to build innovative solutions. Great prizes, mentorship, and networking opportunities await!",
+      "type": "hackathon",
+      "location": "IEC College Campus, Tech Hub",
+      "tags": ["Hackathon", "Innovation", "Coding"],
+      "banner": "https://unsplash.com/photos/business-people-vision-climbing-ladder-through-hole-on-wall-red-solution-opportunities-creative-concept-illustration-vector-f7HVQFYjz9U",
+      "register": "https://gdg-iec.dev/register/hackemon",
+      "details": "https://gdg-iec.dev/events/hackemon"
+    }
+  ],
+  "past": [
+    {
+      "title": "Web and Flutter Development Workshop",
+      "date": "2025-01-30",
+      "description": "Level up your skills with this beginner-friendly hands-on workshop. Participants learned the fundamentals of web development with HTML, CSS, and JavaScript, followed by an introduction to cross-platform development with Flutter.",
+      "type": "workshop",
+      "location": "IEC College, Lab 204",
+      "tags": ["Flutter", "Web", "Mobile"],
+      "banner": "https://unsplash.com/photos/web-design-creation-work-of-agency-with-creative-team-of-artists-vector-illustration-cartoon-tiny-people-develop-ui-app-with-visual-editor-tools-professional-designers-build-new-trendy-project-YjDK7bQFty4",
+      "details": "https://gdg-iec.dev/events/flutter-web-workshop"
+    },
+    {
+      "title": "Introductory Session for Solutions Challenge 2025",
+      "date": "2025-01-13",
+      "description": "Kick-off session for the GDG Solutions Challenge 2025. This information session covered the rules, timeline, and expectations for the Google Developer Solutions Challenge, along with tips from previous successful participants.",
+      "type": "tech talk",
+      "location": "IEC College, Seminar Hall",
+      "tags": ["Solutions Challenge", "SDGs", "Cloud"],
+      "banner": "https://unsplash.com/illustrations/business-people-vision-climbing-ladder-through-hole-on-wall-red-solution-opportunities-creative-concept-illustration-vector-f7HVQFYjz9U",
+      "details": "https://gdg-iec.dev/events/solutions-challenge-intro"
+    },
+    {
+      "title": "Dev December - Flutter Your Way to Android",
+      "date": "2024-12-28",
+      "description": "Holiday learning with Flutter! This hands-on workshop guided participants through building their first Flutter app with a focus on Android development. Perfect for beginners looking to enter mobile development.",
+      "type": "workshop",
+      "location": "IEC College, Tech Lab",
+      "tags": ["Flutter", "Android", "Mobile"],
+      "banner": "https://unsplash.com/illustrations/business-goals-achievement-concept-tiny-businessman-character-throw-darts-to-huge-target-aim-mission-challenge-task-solution-high-growing-risk-investment-cartoon-people-vector-illustration-AJFtrcyimBk",
+      "details": "https://gdg-iec.dev/events/flutter-android-workshop"
+    },
+    {
+      "title": "DevByte - A Web Development Odyssey",
+      "date": "2024-12-23",
+      "description": "Web development crash course for beginners. This intensive one-day workshop covered HTML, CSS, JavaScript fundamentals, and responsive design principles. Participants created their own portfolio website by the end of the session.",
+      "type": "workshop",
+      "location": "Online (Virtual)",
+      "tags": ["Web", "HTML", "JavaScript"],
+      "banner": "https://unsplash.com/photos/web-design-creation-work-of-agency-with-creative-team-of-artists-vector-illustration-cartoon-tiny-people-develop-ui-app-with-visual-editor-tools-professional-designers-build-new-trendy-project-YjDK7bQFty4",
+      "details": "https://gdg-iec.dev/events/web-dev-odyssey"
+    }
+  ]
+}

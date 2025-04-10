@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Events | GDG-IEC</title>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="../main.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="animation-container"></div>
+  
+  <header class="events-header animate-in">
+    <div class="container">
+      <h1>Events</h1>
+      <p class="tagline">Learn, connect, and grow with our community events</p>
+    </div>
+  </header>
+
+  <nav class="material-nav">
+    <div class="nav-container">
+      <div class="logo">
+        <img src="/assets/logo.png" alt="GDG Logo" class="contain-img" loading="eager">
+      </div>
+      <ul>
+        <li><a href="../"><span class="material-symbols-outlined">home</span>Home</a></li>
+        <li><a href="./" class="active"><span class="material-symbols-outlined">event</span>Events</a></li>
+        <li><a href="../team/"><span class="material-symbols-outlined">group</span>Team</a></li>
+        <li><a href="../partners/"><span class="material-symbols-outlined">handshake</span>Partners</a></li>
+        <li><a href="../photos/"><span class="material-symbols-outlined">photo_library</span>Photos</a></li>
+      </ul>
+      <button class="mobile-menu-btn">
+        <span class="material-symbols-outlined">menu</span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="events-intro card-elevation animate-in">
+      <div class="section-content">
+        <h2>Join Our Events</h2>
+        <p>
+          GDG-IEC hosts a variety of events including workshops, tech talks, hackathons, 
+          and social gatherings designed to help students learn new skills and connect with the tech community.
+        </p>
+        <div class="gdg-colors">
+          <span class="color-dot blue"></span>
+          <span class="color-dot red"></span>
+          <span class="color-dot yellow"></span>
+          <span class="color-dot green"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="events-section animate-in" data-delay="200">
+      <div class="section-header">
+        <span class="material-symbols-outlined">upcoming</span>
+        <h2>Upcoming Events</h2>
+      </div>
+      <div class="events-list-container" id="upcoming-events-container">
+        <div class="events-loading">
+          <span class="material-symbols-outlined loading-icon">event</span>
+          <p>Loading upcoming events...</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="events-section animate-in" data-delay="400">
+      <div class="section-header">
+        <span class="material-symbols-outlined">history</span>
+        <h2>Past Events</h2>
+      </div>
+      <div class="events-list-container" id="past-events-container">
+        <div class="events-loading">
+          <span class="material-symbols-outlined loading-icon">event</span>
+          <p>Loading past events...</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section card-elevation animate-in" data-delay="600">
+      <div class="section-content">
+        <h3>Have an idea for an event?</h3>
+        <p>We're always looking for new ideas and speakers. If you have a suggestion or want to collaborate, let us know!</p>
+        <a href="#" class="material-button">
+          <span>Submit Event Idea</span>
+          <span class="material-symbols-outlined">lightbulb</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="animate-in" data-delay="800">
+    <div class="footer-content">
+      <p>&copy; 2025 GDG-IEC | Powered by Google Developer Groups</p>
+      <div class="social-links">
+        <a href="#" class="social-icon"><span class="material-symbols-outlined">public</span></a>
+        <a href="#" class="social-icon"><span class="material-symbols-outlined">smart_toy</span></a>
+        <a href="#" class="social-icon"><span class="material-symbols-outlined">mail</span></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="../main.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

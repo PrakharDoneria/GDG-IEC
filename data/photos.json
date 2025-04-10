@@ -1,0 +1,19 @@
+{
+  "photos": [
+    {
+      "url": "https://example.com/photo1.jpg",
+      "caption": "Workshop on Flutter Development",
+      "category": "workshops"
+    },
+    {
+      "url": "https://example.com/photo2.jpg",
+      "caption": "Google I/O Extended 2024",
+      "category": "events"
+    },
+    {
+      "url": "https://example.com/photo3.jpg",
+      "caption": "Team Building Activity",
+      "category": "community"
+    }
+  ]
+}

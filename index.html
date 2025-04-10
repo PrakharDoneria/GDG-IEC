@@ -1,85 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GDG on Campus IEC College of Engineering & Technology</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GDG-IEC | Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="main.css" />
 </head>
-<body class="bg-gray-50 font-roboto">
-    <header class="bg-blue-600 text-white py-5">
-        <div class="container mx-auto px-6 flex justify-between items-center flex-wrap">
-            <h1 class="text-2xl md:text-3xl font-bold">GDG on Campus IEC College of Engineering & Technology</h1>
-            <nav>
-                <ul class="flex flex-wrap space-x-4 md:space-x-6">
-                    <li><a href="#about" class="hover:underline">About</a></li>
-                    <li><a href="#events" class="hover:underline">Events</a></li>
-                    <li><a href="#social" class="hover:underline">Social Media</a></li>
-                    <li><a href="#contact" class="hover:underline">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<body>
+  <div id="animation-container"></div>
+  
+  <header class="animate-in">
+    <div class="container">
+      <h1>GDG On Campus - IEC College</h1>
+      <p class="tagline">A community for developers, by developers.</p>
+    </div>
+  </header>
 
-    <section id="hero" class="bg-yellow-400 py-20 text-center">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-semibold text-gray-800">Welcome to GDG on Campus</h2>
-            <p class="mt-4 text-lg text-gray-600">Join a community of passionate developers and innovators at IEC College.</p>
-            <a href="https://chat.whatsapp.com/KlByvTOiTtjHrILWBwOi20" class="mt-8 inline-block bg-green-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-green-700 transition duration-200">
-                <span class="material-icons align-middle">chat</span> Join WhatsApp Group
-            </a>
+  <nav class="material-nav">
+    <div class="nav-container">
+      <div class="logo">
+        <img src="assets/logo.png" alt="GDG Logo" height="24">
+      </div>
+      <ul>
+        <li><a href="/" class="active"><span class="material-symbols-outlined">home</span>Home</a></li>
+        <li><a href="events/"><span class="material-symbols-outlined">event</span>Events</a></li>
+        <li><a href="team/"><span class="material-symbols-outlined">group</span>Team</a></li>
+        <li><a href="partners/"><span class="material-symbols-outlined">handshake</span>Partners</a></li>
+        <li><a href="photos/"><span class="material-symbols-outlined">photo_library</span>Photos</a></li>
+      </ul>
+      <button class="mobile-menu-btn">
+        <span class="material-symbols-outlined">menu</span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="intro card-elevation animate-in">
+      <div class="section-content">
+        <h2>Welcome to GDG On Campus at IEC</h2>
+        <p>
+          We are a community of passionate developers, innovators, and tech enthusiasts committed to exploring cutting-edge technologies and solving real-world challenges.
+        </p>
+        <div class="gdg-colors">
+          <span class="color-dot blue"></span>
+          <span class="color-dot red"></span>
+          <span class="color-dot yellow"></span>
+          <span class="color-dot green"></span>
         </div>
+        <a href="https://gdg.community.dev/gdg-on-campus-iec-college-of-engineering-technology-greater-noida-india/" class="material-button" target="_blank">
+          <span>Join the Community</span>
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </a>
+      </div>
     </section>
 
-    <section id="about" class="py-20">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-2xl md:text-3xl font-semibold text-blue-600 mb-4">About Us</h2>
-            <p class="text-lg text-gray-700 mb-6">We are a community of developers committed to exploring technologies and solving real-world challenges. We offer workshops, seminars, and hands-on sessions on Google technologies and beyond.</p>
-            <a href="https://gdg.community.dev/gdg-on-campus-iec-college-of-engineering-technology-greater-noida-india/" class="inline-block bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-blue-700 transition duration-200">
-                <span class="material-icons align-middle">info</span> Learn More
-            </a>
+    <section class="about card-elevation animate-in" data-delay="200">
+      <div class="section-content">
+        <h3>About GDG On Campus</h3>
+        <p>
+          Our goal is to help students enhance their skills in modern tech. We host workshops, tech talks, and hands-on events focusing on Google technologies and beyond.
+        </p>
+        <div class="tech-icons">
+          <div class="tech-icon">
+            <img src="/assets/firebase.png" alt="Firebase">
+          </div>
+          <div class="tech-icon">
+            <img src="/assets/android.png" alt="Android">
+          </div>
+          <div class="tech-icon">
+            <img src="/assets/tensorflow.png" alt="TensorFlow">
+          </div>
         </div>
+      </div>
     </section>
 
-    <section id="events" class="bg-gray-100 py-20">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-2xl md:text-3xl font-semibold text-blue-600 mb-4">Upcoming Events</h2>
-            <a href="https://gdg.community.dev/events/#/list" class="inline-block bg-yellow-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-yellow-600 transition duration-200">
-                <span class="material-icons align-middle">event</span> View Events
-            </a>
+    <section class="highlights card-elevation animate-in" data-delay="400">
+      <div class="section-content">
+        <h3>Upcoming Events</h3>
+        <div class="event-cards" id="event-list">
+          <!-- Populated by JS -->
         </div>
+        <a href="events/" class="see-more">
+          <span>View All Events</span>
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </a>
+      </div>
     </section>
+  </main>
 
-    <section id="social" class="py-20">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-2xl md:text-3xl font-semibold text-blue-600 mb-4">Connect with Us</h2>
-            <ul class="flex justify-center space-x-8 md:space-x-12">
-                <li>
-                    <a href="https://www.instagram.com/gdg.iec" class="text-gray-700 hover:text-blue-600 transition duration-200">
-                        <span class="material-icons align-middle">photo_camera</span> Instagram
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/groups/14523414" class="text-gray-700 hover:text-blue-600 transition duration-200">
-                        <span class="material-icons align-middle">business</span> LinkedIn
-                    </a>
-                </li>
-                <li>
-                    <a href="https://chat.whatsapp.com/KlByvTOiTtjHrILWBwOi20" class="text-gray-700 hover:text-blue-600 transition duration-200">
-                        <span class="material-icons align-middle">chat</span> WhatsApp
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </section>
+  <footer class="animate-in" data-delay="600">
+    <div class="footer-content">
+      <p>&copy; 2025 GDG-IEC | Powered by Google Developer Groups</p>
+      <div class="social-links">
+        <a href="#" class="social-icon"><span class="material-symbols-outlined">public</span></a>
+        <a href="#" class="social-icon"><span class="material-symbols-outlined">smart_toy</span></a>
+        <a href="mailto:"gdgoncampusiec@gmail.com" class="social-icon"><span class="material-symbols-outlined">mail</span></a>
+      </div>
+    </div>
+  </footer>
 
-    <footer class="bg-gray-800 text-white py-5">
-        <div class="container mx-auto px-6 text-center">
-            <p>&copy; 2024 GDG on Campus IEC College of Engineering & Technology</p>
-        </div>
-    </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
